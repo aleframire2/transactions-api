@@ -792,14 +792,28 @@ Later improvements could include:
 - Cloud deployment
 
 
-# What to submit?
+## What to submit?
 
-You will submit a URL to the repo you created for this activity. On this repo you will write a README file that will contain:
+# You will submit a URL to the repo you created for this activity. On this repo you will write a README file that will contain:
 1. What were the new things you learned in this activity?
+That Heroku was a thing at all, and how to set it up, also login strings for MongoDB come in very useful.
+
 2. What is the purpose of the `seed.js` program?
+To load all the in-memory data into the database
+
 3. What was the most dificult thing to do in this activity?
+Setting up Heroku. It took me a long time to get over a particular hurdle where the path variable wasn't being updated
+
 4. How would you say you were prudent in this assignment?
+I would say I was prudent in following the instructions as they were told on here. I didn't stray from doing what Doctor Arias told us.
+
 5. How would you say you need to be prudent when developing this kind of web applications?
+Getting familiar with Heroku so I don't run into the same issues again.
+
 6. URL of your deployed application as a link.
+https://github.com/aleframire2/transactions-api
+
 7. Screenshots of Postman making requests to your **deployed** application
+
+
 8. Screenshotds
