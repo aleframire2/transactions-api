@@ -755,7 +755,9 @@ View logs:
 heroku logs --tail
 ```
 
-**Question** how can we run the seed program on Heroku?
+# Question: How can we run the seed program on Heroku?
+By running `heroku run npm run seed --app transactions-api-12345`
+
 
 # Phase 16
 
@@ -795,10 +797,10 @@ Later improvements could include:
 ## What to submit?
 
 # You will submit a URL to the repo you created for this activity. On this repo you will write a README file that will contain:
-1. What were the new things you learned in this activity?
+## 1. What were the new things you learned in this activity?
 That Heroku was a thing at all, and how to set it up, also login strings for MongoDB come in very useful.
 
-2. What is the purpose of the `seed.js` program?
+## 2. What is the purpose of the `seed.js` program?
 To load all the in-memory data into the database
 
 3. What was the most dificult thing to do in this activity?
@@ -810,10 +812,26 @@ I would say I was prudent in following the instructions as they were told on her
 5. How would you say you need to be prudent when developing this kind of web applications?
 Getting familiar with Heroku so I don't run into the same issues again.
 
-6. URL of your deployed application as a link.
-https://github.com/aleframire2/transactions-api
+## URL of your deployed application as a link.
 
-7. Screenshots of Postman making requests to your **deployed** application
+`https://transactions-api-12345-1e0a34d2b87f.herokuapp.com/`
 
+# 7. Screenshots of Postman making requests to your deployed application
+## Get all transactions
+![alt text](image.png)
 
-8. Screenshotds
+## Get one specific transaction by id
+![alt text](image-1.png)
+
+## Filter by a single date
+![alt text](image-2.png)
+
+## Filter by date range
+![alt text](image-3.png)
+
+## Filter by card name
+![alt text](image-4.png)
+
+# Post
+## Post a transaction in the database
+![alt text](image-5.png)
